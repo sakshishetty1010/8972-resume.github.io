@@ -1,0 +1,138 @@
+
+body{
+    background:rgb(236, 228, 228);
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    height:1400px;
+    width:800px;
+    background-color: white;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C394B;
+    padding-left:25px;
+    
+}
+.imgBx{
+    margin:30px;
+   
+}
+img{
+    height:80px;
+    border-radius: 40%;
+   
+}
+
+#name{
+    font-size: 50px;
+    color:white;
+    margin-bottom: 0;
+}
+#branch{
+    color:#FF4C29;
+    font-size:1.2rem;
+    margin-top:0;
+    margin-bottom:0;
+    padding-bottom:10px;
+}
+.header-info{
+    display:flex;
+    height:80px;
+   justify-content: space-between;
+   padding-left: 25px;
+   padding-right: 25px;
+    background-color: #082032;
+    color:rgba(255, 255, 255, 0.918);
+}
+.info-left,.info-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.icons{
+    margin:5px;
+}
+.main-body{
+    display:flex;
+    padding-left:25px;
+    padding-right: 25px;;
+}
+
+.body-right{
+    padding-left: 15px;
+}
+h2{
+    color:#FF4C29;
+    text-decoration:underline;
+}
+
+.title{
+    font-size:20px;
+    font-weight:bold;
+}
+.subtitle{
+    font-size:18px;
+}
+.skills-list{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.skillname{
+    border:1px solid gray;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: gray;
+    margin:0.5rem;
+    padding:3px
+   
+}
+.project-info,.proficiency{
+    font-size: 13px;
+    color:rgb(95, 93, 93);
+    font-style:italic;
+}
+.row1,.row2{
+    display:flex;
+    justify-content: space-between;
+}
+.int{
+    width:70%;
+    display:flex;
+    justify-content: space-between;
+}
+.int1{
+    border:1px solid gray;
+    border-radius: 0.25rem;
+    padding:5px;
+}
+.dates{
+    display:flex;
+    justify-content: space-between;
+    font-size:13px;
+    font-style: italic;
+    color:#FF4C29;
+}
+a{
+    text-decoration:none;
+}
+.header-info a{
+    color:rgba(255, 255, 255, 0.918);
+}
+.certification a{
+    color:black;
+}
+.conferences a{
+    color:black;
+}
+
